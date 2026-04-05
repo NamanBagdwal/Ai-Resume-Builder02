@@ -7,5 +7,5 @@ config({ path: "./.env" });
 connectDB().then(() => {
   app.listen(process.env.PORT, () => {
     console.log("Server is running on http://localhost:" + process.env.PORT);
-  });
+  }); // Server connected Successfully
 });
